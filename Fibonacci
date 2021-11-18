@@ -1,0 +1,11 @@
+# Sequência de Fibonacci ## Genival Pereira Marques - genival.marques@gmail.com
+
+a=0
+b=1
+c=a+b
+
+for numero in range(150): # 150 indica até quantos itens poderá contar / imprimir
+    print(a)
+    a=b
+    b=c
+    c=a+b
